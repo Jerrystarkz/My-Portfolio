@@ -29,10 +29,10 @@ const Main = () => {
               repeat={Infinity}
             />
             <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                <FaInstagram className='cursor-pointer' size={20} href='#'/>
-                <FaTwitter  className='cursor-pointer' size={20} href='https://twitter.com/jerry_starkz'/>
-                <FaFacebookF className='cursor-pointer' size={20} href='https://facebook.com/jerry.nuhu'/>
-                <FaLinkedinIn className='cursor-pointer' size={20} href='#'/>
+                <a href='https://www.instagram.com/jerrystarkz/' ><FaInstagram className='cursor-pointer' size={20} /></a>
+                <a href='https://twitter.com/jerry_starkz'><FaTwitter  className='cursor-pointer' size={20} /></a>
+                <a href='https://web.facebook.com/jerry.nuhu'><FaFacebookF className='cursor-pointer' size={20} /></a>
+                <a href='https://www.linkedin.com/in/jerry-nuhu-b79992142'><FaLinkedinIn className='cursor-pointer' size={20} /></a>
             </div>
         </div>
       </div>
